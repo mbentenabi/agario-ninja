@@ -947,7 +947,7 @@
 
     // Start it baby!
     if (detectAgario()) {
-        addSwitch();
+        addSwitch(www.agariohub.net);
         addFont().then(showHelp).then(addLogo);
     }
 })(window);
